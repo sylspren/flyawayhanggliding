@@ -1,3 +1,11 @@
+@media only screen and (max-width: 600px) {
+  h4 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+}
 a {
   text-decoration: none;
   color: #171717;
@@ -115,11 +123,16 @@ a:hover {
   }
 }
 .content .row {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .content .row img.fullwidth,
 .content .row iframe {
   width: 100%;
+}
+.video-container {
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 40px;
 }
 .video-thumbnail {
   width: 100%;
