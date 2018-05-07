@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  text-align: center;
   font-family: Arial, Helvetica, Open Sans;
 }
 .sticky-header {
@@ -22,6 +21,7 @@ body {
   text-decoration: none;
 }
 .hero-image {
+  text-align: center;
   background-image: url("https://dl.dropboxusercontent.com/content_link/yYQzkNshVWQHupFYxpqFc83WCNzE0zM1oI9MMSFqUHxPTFSF3AteoQdta0FANZVi/file");
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,7 +29,7 @@ body {
   background-position-y: center;
   height: 70vh;
   box-sizing: border-box;
-  padding-top: 30%;
+  padding-top: 25vh;
   margin-top: 60px;
 }
 .hero-image .title,
@@ -55,90 +55,4 @@ body {
   .content {
     margin: 0 10px;
   }
-}
-h1 {
-  text-align: center;
-  color: #00f;
-  font-size: 50px;
-  font-weight: normal;
-  line-height: 0.9em;
-  margin-top: -6px;
-  margin-bottom: -8px;
-}
-h2 {
-  color: #000;
-  font-size: larger;
-  font-weight: bold;
-}
-h3 {
-  font-size: 20px;
-  color: #000;
-  margin-top: 10px;
-  font-weight: normal;
-}
-.weather-bar {
-  font-weight: bold;
-  background-color: #1effff;
-  padding: 4px;
-  border: medium;
-  text-align: left;
-  text-decoration: none;
-}
-.menu-bar-weather {
-  padding-right: 10px;
-}
-p {
-  color: #000;
-  text-align: left;
-  margin-left: 5px;
-}
-.side1 {
-  text-align: left;
-  width: 300px;
-  float: left;
-  padding-right: 15px;
-}
-.side2 {
-  width: 310px;
-  text-align: center;
-  float: left;
-}
-.info_l {
-  text-align: center;
-  width: 310px;
-  float: left;
-  padding-right: 15px;
-  font-size: large;
-  font-weight: bold;
-}
-.info_r {
-  width: 310px;
-  text-align: center;
-  font-size: large;
-  float: left;
-  font-weight: bold;
-}
-#lvideo {
-  margin-top: 5px;
-  width: 145px;
-  text-align: right;
-  float: left;
-}
-#rvideo {
-  margin-top: 5px;
-  width: 145px;
-  text-align: right;
-  float: right;
-}
-#left-video {
-  margin: 5px;
-  width: 330px;
-  float: left;
-  text-align: right;
-}
-.lfloat {
-  margin: 5px;
-  width: 180px;
-  float: left;
-  text-align: right;
 }
