@@ -10,19 +10,25 @@ body {
   background: #fff;
   border-bottom: 1px solid #808080;
 }
+.sticky-header .contact {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 .sticky-header .nav {
   position: absolute;
   right: 0;
 }
-.sticky-header .nav li {
+.sticky-header .nav a {
   display: inline-block;
-}
-.sticky-header .nav li a {
   text-decoration: none;
+}
+.sticky-header .nav a img {
+  height: 30px;
 }
 .hero-image {
   text-align: center;
-  background-image: url("https://dl.dropboxusercontent.com/content_link/yYQzkNshVWQHupFYxpqFc83WCNzE0zM1oI9MMSFqUHxPTFSF3AteoQdta0FANZVi/file");
+  background-image: url("/img/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
