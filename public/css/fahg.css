@@ -1,40 +1,52 @@
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, Open Sans;
-}
 a {
   text-decoration: none;
   color: #171717;
 }
 a:hover {
   color: #4286f4;
+  text-decoration: none;
 }
 .sticky-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 60px;
+  min-height: 60px;
   background: #fff;
   border-bottom: 1px solid #808080;
-  font-size: 19px;
 }
-.sticky-header .header-content {
-  position: relative;
-  margin: 0 10px;
+.sticky-header br {
+  display: none;
 }
-.sticky-header a {
-  display: inline-block;
+.sticky-header .navbar-item {
+  text-align: right;
 }
-.sticky-header .contact,
-.sticky-header .nav {
-  top: 19px;
-  position: absolute;
+@media only screen and (min-width: 992px) {
+  .sticky-header .navbar-nav {
+    position: absolute;
+    right: 16px;
+  }
+  .sticky-header .navbar-nav a {
+    margin-left: 10px;
+  }
 }
-.sticky-header .nav {
-  right: 0;
+.sticky-header .navbar-toggler {
+  border: none;
 }
-.sticky-header .nav a {
-  margin-left: 10px;
+@media only screen and (max-width: 600px) {
+  .sticky-header {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .sticky-header .navbar-toggler {
+    padding: 0;
+  }
+  .sticky-header .navbar-brand {
+    font-size: 12px;
+    margin-right: 0px;
+  }
+  .sticky-header .navbar-brand span {
+    display: none;
+  }
+  .sticky-header .navbar-brand br {
+    display: initial;
+  }
 }
 .hero-image {
   background-image: url("/img/hero.jpg");
@@ -55,20 +67,31 @@ a:hover {
   background-color: #031430;
   opacity: 0.1;
 }
-.hero-image .title,
-.hero-image .subtitle {
+.hero-image .hero-image__content {
   position: absolute;
-  color: #fff;
   width: 100%;
   text-align: center;
+  top: 22%;
+}
+.hero-image .title,
+.hero-image .subtitle {
+  color: #fff;
 }
 .hero-image .title {
-  font-size: 68px;
-  top: 16%;
+  font-size: 70px;
+}
+@media only screen and (max-width: 600px) {
+  .hero-image .title {
+    font-size: 28px;
+  }
 }
 .hero-image .subtitle {
-  top: calc(16% + 118px);
-  font-size: 24px;
+  font-size: 28px;
+}
+@media only screen and (max-width: 600px) {
+  .hero-image .subtitle {
+    font-size: 16px;
+  }
 }
 .content {
   color: #171717;
@@ -90,6 +113,10 @@ a:hover {
   .content {
     margin: 40px 10px;
   }
+}
+.content .row img,
+.content .row iframe {
+  width: 100%;
 }
 .footer {
   text-align: center;
