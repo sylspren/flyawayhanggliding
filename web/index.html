@@ -11,8 +11,10 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
     <link rel="stylesheet" href="css/fahg.css" type="text/css">
 
   </head>
@@ -26,8 +28,8 @@
         <a href="tel:1-802-558-6350">(802) 558-6350</a>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse" id="navLinks">
         <ul class="navbar-nav">
           <li class="navbar-item"><a class="navbar-link" href="./">Home</a></li>
@@ -49,7 +51,7 @@
     <div class="content">
       <div class="row">
         <div class="col-sm-5 col-md-4">
-          <img src="http://flyawayhanggliding.com/fafiles/Willy Dydo Instructor.jpg" name="Willy Dydo Instructor" alt="About Willy Dydo Instructor" title="Willy Dydo Instructor"/>
+          <img class="fullwidth" src="http://flyawayhanggliding.com/fafiles/Willy%20Dydo%20Instructor.jpg" alt="About Willy Dydo Instructor" title="Willy Dydo Instructor"/>
         </div>
         <div class="col-sm-7 col-md-8">
           <h4>Willy Dydo is your world class instructor.</h4>
@@ -60,20 +62,29 @@
   patience and calm nature. <br clear="all"></p>
         </div>
       </div>
-<!-- Movie 1 -->
-      <object width="210" height="160">
-<param name="movie" value="http://www.youtube.com/v/Rrtjn4ezBpg&amp;hl=en_US&amp;fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/Rrtjn4ezBpg&amp;hl=en_US&amp;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"
- width="210" height="160"></embed></object>
-
-<!-- Movie 3 -->
-      <object width="210" height="160">
-<param name="movie" value="http://www.youtube.com/v/K2exYzwsQsg?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/K2exYzwsQsg?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"
-width="210" height="160"></embed></object>
-<!-- Movie 4 -->
-      <object width="210" height="160">
-<param name="movie" value="http://www.youtube.com/v/eWW4VtR3XBY?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/eWW4VtR3XBY?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"
-width="210" height="160"></embed></object>
-
+      <div class="row">
+        <div class="col-md-4">
+          <a href="https://www.youtube.com/watch?v=Rrtjn4ezBpg&rel=0&autoplay=1" data-toggle="lightbox">
+            <div class="video-thumbnail video-1">
+              <img src="img/yt_icon_mono_light.png">
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://www.youtube.com/watch?v=K2exYzwsQsg&rel=0&autoplay=1" data-toggle="lightbox">
+            <div class="video-thumbnail video-2">
+              <img src="img/yt_icon_mono_light.png">
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://www.youtube.com/watch?v=eWW4VtR3XBY&rel=0&autoplay=1" data-toggle="lightbox">
+            <div class="video-thumbnail video-3">
+              <img src="img/yt_icon_mono_light.png">
+            </div>
+          </a>
+        </div>
+      </div>
       <div class="row">
         <div class="col-sm-7 col-md-8">
           <h4>You can soar with the birds. Hang gliding is the ultimate high.</h4>
@@ -85,12 +96,12 @@ width="210" height="160"></embed></object>
           <p>Hang gliding is the closest humans can get to the feeling of flying like a bird, like in your dreams.</p>
         </div>
         <div class="col-sm-5 col-md-4">
-          <img src="http://flyawayhanggliding.com/fafiles/AnaiyaMain.jpg" name="Ground Run Aplpa" alt="Ground Run Bottom Alpha" title="Running Alpha">
+          <img class="fullwidth" src="http://flyawayhanggliding.com/fafiles/AnaiyaMain.jpg" alt="Ground Run Bottom Alpha" title="Running Alpha">
         </div>
       </div>
       <div class="row">
         <div class="col-sm-5 col-md-4">
-          <img src="http://flyawayhanggliding.com/fafiles/topalpha.jpeg" name="upper launch" alt="upper launch alpha" title="Launching The Top">
+          <img class="fullwidth" src="http://flyawayhanggliding.com/fafiles/topalpha.jpeg" alt="upper launch alpha" title="Launching The Top">
         </div>
         <div class="col-sm-7 col-md-8">
           <p>
@@ -140,6 +151,10 @@ width="210" height="160"></embed></object>
     </div>
 
 <script type="text/javascript">
+  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  });
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-16536695-1']);

@@ -114,9 +114,39 @@ a:hover {
     margin: 40px 10px;
   }
 }
-.content .row img,
+.content .row {
+  margin-bottom: 20px;
+}
+.content .row img.fullwidth,
 .content .row iframe {
   width: 100%;
+}
+.video-thumbnail {
+  width: 100%;
+  padding-top: 100%;
+  border-radius: 50%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.video-thumbnail img {
+  position: absolute;
+  width: 70px;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -35px;
+}
+.video-thumbnail.video-1 {
+  background-image: url("/img/flyingScreenshot.jpg");
+}
+.video-thumbnail.video-2 {
+  background-image: url("/img/bratScreenshot.png");
+}
+.video-thumbnail.video-3 {
+  background-image: url("/img/trainingScreenshot.jpg");
 }
 .footer {
   text-align: center;
