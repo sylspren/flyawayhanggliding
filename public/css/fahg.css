@@ -2,6 +2,13 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, Open Sans;
 }
+a {
+  text-decoration: none;
+  color: #171717;
+}
+a:hover {
+  color: #4286f4;
+}
 .sticky-header {
   position: fixed;
   top: 0;
@@ -13,21 +20,10 @@ body {
 }
 .sticky-header .header-content {
   position: relative;
-  margin: 0 auto;
-  max-width: 1280px;
-}
-@media only screen and (max-width: 1280px) {
-  .sticky-header .header-content {
-    margin: 0 10px;
-  }
+  margin: 0 10px;
 }
 .sticky-header a {
-  text-decoration: none;
-  color: #171717;
   display: inline-block;
-}
-.sticky-header a:hover {
-  color: #4286f4;
 }
 .sticky-header .contact,
 .sticky-header .nav {
@@ -40,30 +36,45 @@ body {
 .sticky-header .nav a {
   margin-left: 10px;
 }
-.social-icon img {
-  height: 26px;
-  margin-bottom: -6px;
-}
 .hero-image {
-  text-align: center;
   background-image: url("/img/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
   background-position-y: center;
   height: 70vh;
-  box-sizing: border-box;
-  padding-top: 25vh;
+  max-height: 700px;
   margin-top: 60px;
+  position: relative;
+}
+.hero-image .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #031430;
+  opacity: 0.1;
 }
 .hero-image .title,
 .hero-image .subtitle {
+  position: absolute;
   color: #fff;
+  width: 100%;
+  text-align: center;
+}
+.hero-image .title {
+  font-size: 68px;
+  top: 16%;
+}
+.hero-image .subtitle {
+  top: calc(16% + 118px);
+  font-size: 24px;
 }
 .content {
   color: #171717;
   margin: 40px auto;
   max-width: 1280px;
+  margin-bottom: 100px;
 }
 @media only screen and (max-width: 1280px) {
   .content {
@@ -82,5 +93,23 @@ body {
 }
 .footer {
   text-align: center;
-  background-color: #999;
+  background-color: #031430;
+  padding: 40px 0 28px 0;
+  color: #fff;
+}
+.footer a {
+  color: #fff;
+}
+.footer a:hover {
+  color: #4286f4;
+}
+.footer div {
+  margin-bottom: 12px;
+}
+.footer .social-icons img {
+  height: 26px;
+  margin-right: 8px;
+}
+.footer .logos img {
+  margin-right: 8px;
 }

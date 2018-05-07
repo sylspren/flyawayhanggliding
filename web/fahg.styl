@@ -5,8 +5,15 @@ body
 $headerHeight = 60px
 
 $alphaBlue = #4286f4
+$darkAlphaBlue = #031430
 $black = #171717
-$grey = #999999
+
+
+a
+ text-decoration none
+ color $black
+ &:hover
+   color $alphaBlue
 
 .sticky-header
   position fixed
@@ -18,16 +25,9 @@ $grey = #999999
   font-size 19px
   .header-content
     position relative
-    margin 0 auto
-    max-width 1280px
-    +below(1280px)
-      margin 0 10px
+    margin 0 10px
   a
-    text-decoration none
-    color $black
     display inline-block
-    &:hover
-      color $alphaBlue
   .contact,
   .nav
     top 19px
@@ -37,30 +37,42 @@ $grey = #999999
     a
       margin-left 10px
 
-.social-icon
-  img
-    height 26px
-    margin-bottom -6px
 
 .hero-image
-  text-align center
   background-image url("/img/hero.jpg")
   background-repeat no-repeat
   background-size cover
   background-position-x center
   background-position-y center
   height 70vh
-  box-sizing border-box
-  padding-top 25vh
+  max-height 700px
   margin-top $headerHeight
+  position relative
+  .overlay
+    position absolute
+    top 0
+    bottom 0
+    width 100%
+    background-color $darkAlphaBlue
+    opacity 0.1
   .title,
   .subtitle
+    position absolute
     color white
+    width 100%
+    text-align center
+  .title
+    font-size 68px
+    top 16%
+  .subtitle
+    top calc(16% + 118px)
+    font-size 24px
 
 .content
   color $black
   margin 40px auto
   max-width 1280px
+  margin-bottom 100px
   +below(1280px)
     margin 40px 40px
   +below(700px)
@@ -70,4 +82,17 @@ $grey = #999999
 
 .footer
   text-align center
-  background-color $grey
+  background-color $darkAlphaBlue
+  padding 40px 0 28px 0
+  color white
+  a
+    color white
+    &:hover
+      color $alphaBlue
+  div
+    margin-bottom 12px
+  .social-icons img
+    height 26px
+    margin-right 8px
+  .logos img
+    margin-right 8px
