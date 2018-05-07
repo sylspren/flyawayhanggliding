@@ -12,7 +12,8 @@
     "babel-register": "^6.26.0",
     "eslint_d": "^5.3.0",
     "express": "^4.16.3",
-    "morgan": "^1.9.0"
+    "morgan": "^1.9.0",
+    "stylus": "^0.54.5"
   },
   "eslintConfig": {
     "env": {

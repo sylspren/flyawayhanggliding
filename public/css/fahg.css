@@ -1,180 +1,158 @@
-@page { size: 8.5in 11in }
 body {
-    text-align:center;
+  text-align: center;
 }
 #wrapper {
-    margin-right: auto;
-    margin-left: auto;
-    width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 640px;
 }
 #header {
-    background: url(../fafiles/top_of_hill_logo1.jpg) no-repeat;
-    height: 265px;
-    width: 640px;
-    position: relative;
+  background: url("../fafiles/top_of_hill_logo1.jpg") no-repeat;
+  height: 265px;
+  width: 640px;
+  position: relative;
 }
-h1 {
-    text-align: center;
-    color:blue;
-    font-family: "Times New Roman", serif ;
-    font-size: 50px;
-    font-weight: normal;
-    line-height: .9em;
-    margin-top: -6px;
-    margin-bottom: -8px;
-}
-h2 {
-   color: black;
-   font-family: "arial, sans-serif";
-   font-size: larger;
-   font-weight: bold;
-}
-h3 {
-    font-family: "Times New Roman", serif ;
-    font-size: 20px;
-    color: black;
-    margin-top: 10px;
-    font-weight: normal;
-}
-
-
-.weather-bar {
-    font-weight: bold;
-    background-color: #1EFFFF;
-    padding: 4px;
-    border: medium;
-    text-align: left;
-    text-decoration: none;
-}
-.menu-bar-weather {
-    padding-right: 10px;
-}
-
-p {
-    width: 640px;
-    font-family: "Arial, sans-serif";
-    color: black;
-    text-align: left;
-    margin-left: 5px;
-}
-.side1 {
-    text-align: left;
-    width: 300px;
-    float: left;
-    padding-right: 15px;
-}
-
-.side2 {
-    width: 310px;
-    text-align: center;
-    float: left;
-}
-.info_l {
-    text-align: center;
-    width: 310px;
-    float: left;
-    padding-right: 15px;
-    font-size: large;
-    font-weight: bold;
-}
-.info_r {
-    width: 310px;
-    text-align: center;
-    font-size: large;
-    float: left;
-    font-weight: bold;
-}
-#lvideo {
-    margin-top: 5px;
-    width: 145px;
-    text-align: right;
-    float: left;
-}
-#rvideo {
-    margin-top: 5px;
-    width: 145px;
-    text-align: right;
-    float: right;
-}
-#left-video {
-    margin: 5px;
-    width: 330px;
-    float: left;
-    text-align: right;
-}
-.lfloat {
-    margin: 5px;
-    width: 180px;
-    float: left;
-    text-align: right;
-}
-
-/* ********************
- * Nav Bar
- */
 #header ul.nav {
   position: absolute;
   bottom: 0px;
-
 }
 #header h1 {
-    font-family: "Times New Roman", serif;
-    font-size: 50px;
-    font-weight: normal;
-    color: #33a;
-    text-shadow: 1px 1px 3px black;
-    margin: 0;
-    line-height: 1em;
+  font-family: "Times New Roman", serif;
+  font-size: 50px;
+  font-weight: normal;
+  color: #33a;
+  text-shadow: 1px 1px 3px #000;
+  margin: 0;
+  line-height: 1em;
 }
 #header h3 {
-    font-family: "Times New Roman", serif;
-    color: #333;
-    font-weight: normal;
-    margin-top: 2px;
+  font-family: "Times New Roman", serif;
+  color: #333;
+  font-weight: normal;
+  margin-top: 2px;
+}
+h1 {
+  text-align: center;
+  color: #00f;
+  font-family: "Times New Roman", serif;
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 0.9em;
+  margin-top: -6px;
+  margin-bottom: -8px;
+}
+h2 {
+  color: #000;
+  font-family: "arial, sans-serif";
+  font-size: larger;
+  font-weight: bold;
+}
+h3 {
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+  color: #000;
+  margin-top: 10px;
+  font-weight: normal;
+}
+.weather-bar {
+  font-weight: bold;
+  background-color: #1effff;
+  padding: 4px;
+  border: medium;
+  text-align: left;
+  text-decoration: none;
+}
+.menu-bar-weather {
+  padding-right: 10px;
+}
+p {
+  width: 640px;
+  font-family: "Arial, sans-serif";
+  color: #000;
+  text-align: left;
+  margin-left: 5px;
+}
+.side1 {
+  text-align: left;
+  width: 300px;
+  float: left;
+  padding-right: 15px;
+}
+.side2 {
+  width: 310px;
+  text-align: center;
+  float: left;
+}
+.info_l {
+  text-align: center;
+  width: 310px;
+  float: left;
+  padding-right: 15px;
+  font-size: large;
+  font-weight: bold;
+}
+.info_r {
+  width: 310px;
+  text-align: center;
+  font-size: large;
+  float: left;
+  font-weight: bold;
+}
+#lvideo {
+  margin-top: 5px;
+  width: 145px;
+  text-align: right;
+  float: left;
+}
+#rvideo {
+  margin-top: 5px;
+  width: 145px;
+  text-align: right;
+  float: right;
+}
+#left-video {
+  margin: 5px;
+  width: 330px;
+  float: left;
+  text-align: right;
+}
+.lfloat {
+  margin: 5px;
+  width: 180px;
+  float: left;
+  text-align: right;
 }
 ul.nav {
-    margin: 0;
+  margin: 0;
 }
 ul.nav li {
-    display: inline;
-    float: left;
+  display: inline;
+  float: left;
 }
 ul.nav li a {
-    font-family: "Times New Roman", serif;
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-    color: blue;
-    padding: 0 0.5em;
-    background: rgb(32,64,32);
-    background: rgba(192,192,192, .6);
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #00f;
+  padding: 0 0.5em;
+  background: #204020;
+  background: rgba(192,192,192,0.6);
 }
-#home li.home a,
-#about li.about a,
-#equipment li.equipment a,
-#lessons li.lessons a,
-#tandems li.tandems a,
-#weather li.weather a {
-    color: #000;
+ul.nav2 li {
+  display: inline;
+  float: center;
+}
+ul.nav2 li a {
+  font-family: "Arial, sans-serif";
+  font-size: 15px;
+  background-color: #04fbf8;
+  padding: 0px 15px;
+  text-decoration: none;
 }
 ul.nav li a:hover,
 ul.nav2 li a:hover {
-    color: #c00;
-    background: rgb(224,224,224);
-    background: rgba(255,255,255, .6);
-}
-
-ul.nav2 {
-}
-ul.nav2 li {
-    display: inline;
-    float: center;
-}
-
-ul.nav2 li a {
-    font-family: "Arial, sans-serif";
-    font-size: 15px;
-    background-color: #04FBF8;
-    padding: 0px 15px;
-    text-decoration: none;
+  color: #c00;
+  background: #e0e0e0;
+  background: rgba(255,255,255,0.6);
 }
