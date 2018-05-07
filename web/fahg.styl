@@ -1,6 +1,7 @@
 body
   margin 0
   text-align center
+  font-family Arial, Helvetica, Open Sans
 
 .hero-image
   background-image url("https://dl.dropboxusercontent.com/content_link/yYQzkNshVWQHupFYxpqFc83WCNzE0zM1oI9MMSFqUHxPTFSF3AteoQdta0FANZVi/file")
@@ -16,15 +17,20 @@ body
   .subtitle
     color white
 
-#wrapper
-    margin-right auto
-    margin-left auto
-    width 640px
+.content
+  margin-right auto
+  margin-left auto
+  max-width 1280px
+  +below(1280px)
+    margin 0 40px
+  +below(700px)
+    margin 0 20px
+  +below(500px)
+    margin 0 10px
 
 h1
     text-align center
     color blue
-    font-family "Times New Roman", serif
     font-size 50px
     font-weight normal
     line-height .9em
@@ -33,12 +39,10 @@ h1
 
 h2
     color black
-    font-family "arial, sans-serif"
     font-size larger
     font-weight bold
 
 h3
-    font-family "Times New Roman", serif
     font-size 20px
     color black
     margin-top 10px
@@ -56,8 +60,6 @@ h3
     padding-right 10px
 
 p
-    width 640px
-    font-family "Arial, sans-serif"
     color black
     text-align left
     margin-left 5px
@@ -119,7 +121,6 @@ ul
             display inline
             float left
             a
-                font-family "Times New Roman", serif
                 font-size 20px
                 font-weight bold
                 text-decoration none
@@ -132,7 +133,6 @@ ul
             display inline
             float center
             a
-                font-family "Arial, sans-serif"
                 font-size 15px
                 background-color #04FBF8
                 padding 0px 15px
