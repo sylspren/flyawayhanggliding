@@ -2,17 +2,31 @@ $headerHeight = 60px
 
 $alphaBlue = #4286f4
 $darkAlphaBlue = #031430
-$black = #171717
+$black = #333
 
-+below(600px)
-  h4
++below(575px)
+  h3
     font-size 1rem
+    margin-top 20px
   p
     font-size .9rem
+  .row
+    margin-bottom 40px
+
+body
+  background-color #f6f6f6
+  color #666
+h3, h4
+  margin-bottom 25px
+  color #444
+h3
+  font-size 1.9rem
+p
+  line-height 1.65rem
 
 a
  text-decoration none
- color $black
+ color #444
  &:hover
    color $alphaBlue
    text-decoration none
@@ -20,26 +34,26 @@ a
 .sticky-header
   min-height $headerHeight
   background white
-  border-bottom 1px solid grey
+  border-bottom 1px solid #ddd
+  padding-left 25px
   br
     display none
   .navbar-item
     text-align right
+    margin-left 25px
   .navbar-nav
     +above(992px)
       position absolute
-      right 16px
-      a
-        margin-left 10px
+      right 25px
   .navbar-toggler
     border none
-  +below(600px)
-    padding-left 5px
-    padding-right 5px
+  +below(575px)
+    padding-left 8px
+    padding-right 8px
     .navbar-toggler
       padding 0
     .navbar-brand
-      font-size 12px
+      font-size 14px
       margin-right 0px
       span
         display none
@@ -68,6 +82,7 @@ a
     width 100%
     text-align center
     top 28%
+    text-shadow 1px 1px 1px rgba(20, 20, 20, 1)
   .title,
   .subtitle
     color white
@@ -81,27 +96,27 @@ a
       font-size 16px
 
 .content
-  color $black
-  margin 40px auto
-  max-width 1280px
+  margin 80px auto
+  max-width 1100px
   margin-bottom 100px
-  +below(1280px)
-    margin 40px 40px
+  +below(1260px)
+    margin 80px
   +below(700px)
-    margin 40px 20px
+    margin 40px
   +below(500px)
-    margin 40px 10px
+    margin 40px 20px
 
   .row
-    margin-bottom 40px
+    margin-bottom 100px
     img.fullwidth,
     iframe
       width 100%
 
 .video-container
-  max-width 400px
+  max-width 320px
   margin auto
   margin-bottom 40px
+  padding 0 20px
 
 .video-thumbnail
   width 100%
