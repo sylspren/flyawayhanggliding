@@ -30,7 +30,7 @@ a {
   color: #444;
 }
 a:hover {
-  color: #4286f4;
+  color: #44b6f5;
   text-decoration: none;
 }
 .sticky-header {
@@ -75,11 +75,11 @@ a:hover {
   }
 }
 .hero-image {
-  background-image: url("/img/hero.jpg");
+  background-image: url("/img/hero2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
-  background-position-y: center;
+  background-position-y: 18%;
   height: 70vh;
   max-height: 700px;
   margin-top: 60px;
@@ -190,7 +190,7 @@ a:hover {
   color: #fff;
 }
 .footer a:hover {
-  color: #4286f4;
+  color: #44b6f5;
 }
 .footer div {
   margin-bottom: 12px;

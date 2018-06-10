@@ -1,0 +1,20 @@
+<h2 align="center">For Lessons and Information <br>
+ Please Call (802) 558-6350
+</h2>
+
+<h2 align="center"><a href="mailto:info@flyawayhanggliding.com"><font color="#0000ff"><font size="+2">Info@FlyAwayHangGliding.com</font></font></a></h2>
+ 
+<ul class="nav2">
+  <li class="home"><a href="./">Home</a></li>
+  <li class="lessons"><a href="lessons.php">Lessons</a></li>
+  <li class="tandems"><a href="tandems.php">Tandems</a> </li>
+  <li class="equipment"><a href="equipment.php">Equipment</a></li>
+  <li class="weather"><a href="weather.php">Weather</a></li>
+  <li class="about"><a href="about.php">About Us</a></li>
+</ul>
+
+
+<a href="http://www.sbsa.info/" id="SBSA"> <img src="fafiles/sbsa.jpg" alt="sbsa web site" border="1" height="60" width="197" title="Santa Barbara soaring association" ></a>
+<a href="http://www.ushga.org/" title=" United States hang gliding paragliding association"> <img src="fafiles/ushga.gif" id="USHPA" alt="USHGA logo and link" border="1" height="60"width="58"></a>
+<a href="http://www.flyaboveall.com/" id="FAA_school" title="Fly Above All paragliding"> <img src="fafiles/faalogo.jpg" name="Fly above all" border="1" height="60" width="192" alt="Fly above all paragliding"></a>
+<a href="http://www.hang-glide.org/" id="HGorg" title="hang gliding official home">Hang glide official home</a>

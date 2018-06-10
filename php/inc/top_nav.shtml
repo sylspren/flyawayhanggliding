@@ -1,0 +1,21 @@
+<img src="fafiles/top_of_hill_logo1.jpg" width="640" height="264" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:james -->
+<area shape="rect" coords="0,234,72,259" alt="Fly Away Hang Gliding main page" href="index.php" />
+<area shape="rect" coords="74,234,174,259" alt="Fly Away Hang Gliding Lessons page" href="lessons.php" />
+<area shape="rect" coords="176,235,290,257" alt="Fly Away Hang Gliding tandem page" href="tandems.php" />
+<area shape="rect" coords="290,235,417,259" alt="Fly Away Hang Gliding Equipment page" href="equipment.php" />
+<area shape="rect" coords="419,235,525,257" alt="Fly Away Hang Gliding Weather page" href="weather.php" />
+<area shape="rect" coords="528,235,637,259" alt="Fly Away Hang Gliding About Us page" href="about.php" />
+</map>
+
+
+
+      <h2><a href="mailto:Info@flyawayhanggliding.com">Info@FlyAwayHangGliding.com</a><br></h2>
+      <h2><font size="+2">Lessons and Information </font><br> Instructor Willy Dydo (802) 558-6350<br> <a href="https://www.facebook.com/FlyAway.HangGliding" id="Facebook"> <img src="Facebook Link.jpeg" alt="Find us on Facebook" border="1" height="50" width="167" title="Find us on Facebook" ></a>
+ <br clear="all"></h2>
