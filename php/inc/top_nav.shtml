@@ -1,21 +1,27 @@
-<img src="fafiles/top_of_hill_logo1.jpg" width="640" height="264" border="0" usemap="#map" />
-
-<map name="map">
-<!-- #$-:Image map file created by GIMP Image Map plug-in -->
-<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
-<!-- #$-:Please do not edit lines starting with "#$" -->
-<!-- #$VERSION:2.3 -->
-<!-- #$AUTHOR:james -->
-<area shape="rect" coords="0,234,72,259" alt="Fly Away Hang Gliding main page" href="index.php" />
-<area shape="rect" coords="74,234,174,259" alt="Fly Away Hang Gliding Lessons page" href="lessons.php" />
-<area shape="rect" coords="176,235,290,257" alt="Fly Away Hang Gliding tandem page" href="tandems.php" />
-<area shape="rect" coords="290,235,417,259" alt="Fly Away Hang Gliding Equipment page" href="equipment.php" />
-<area shape="rect" coords="419,235,525,257" alt="Fly Away Hang Gliding Weather page" href="weather.php" />
-<area shape="rect" coords="528,235,637,259" alt="Fly Away Hang Gliding About Us page" href="about.php" />
-</map>
-
-
-
-      <h2><a href="mailto:Info@flyawayhanggliding.com">Info@FlyAwayHangGliding.com</a><br></h2>
-      <h2><font size="+2">Lessons and Information </font><br> Instructor Willy Dydo (802) 558-6350<br> <a href="https://www.facebook.com/FlyAway.HangGliding" id="Facebook"> <img src="Facebook Link.jpeg" alt="Find us on Facebook" border="1" height="50" width="167" title="Find us on Facebook" ></a>
- <br clear="all"></h2>
+<div class="sticky-header navbar navbar-expand-lg fixed-top navbar-light">
+  <div class='navbar-brand'>
+    <a href="mailto:info@flyawayhanggliding.com">Info@FlyAwayHangGliding.com</a>
+    <span> &middot; </span>
+    <br/>
+    <a href="tel:1-802-558-6350">(802) 558-6350</a>
+  </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navLinks">
+    <ul class="navbar-nav">
+      <li class="navbar-item"><a class="navbar-link" href="./">Home</a></li>
+      <li class="navbar-item"><a class="navbar-link" href="lessons.php">Lessons</a></li>
+      <li class="navbar-item"><a class="navbar-link" href="tandems.php">Tandems</a></li>
+      <li class="navbar-item"><a class="navbar-link" href="equipment.php">Equipment</a></li>
+      <li class="navbar-item"><a class="navbar-link" href="about.php">Reviews</a></li>
+    </ul>
+  </div>
+</div>
+<div class="hero-image">
+  <div class="overlay"></div>
+  <div class="hero-image__content">
+    <h1 class="title">Fly Away Hang Gliding</h1>
+    <h2 class="subtitle">Hang Gliding Instruction and Tandems</h2>
+  </div>
+</div>
