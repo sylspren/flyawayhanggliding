@@ -61,7 +61,7 @@ a
         display initial
 
 .hero-image
-  background-image url("/img/hero2.jpg")
+  background-image url("/img/hero.jpg")
   background-repeat no-repeat
   background-size cover
   background-position-x center
@@ -111,6 +111,29 @@ a
     img.fullwidth,
     iframe
       width 100%
+  a
+    text-decoration underline
+    color #666
+    &:hover
+      color $alphaBlue
+
+.row.certifications
+  margin-top 20px
+  margin-bottom 0
+  .caption
+    font-size 14px
+  .col-lg-6
+    max-width 240px
+    margin 0 auto
+
+.sbsa-callout
+  margin 0 auto
+  display table
+  img
+    margin-right 15px
+  p
+    display table-cell
+    vertical-align middle
 
 .video-container
   max-width 320px

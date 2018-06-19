@@ -75,7 +75,7 @@ a:hover {
   }
 }
 .hero-image {
-  background-image: url("/img/hero2.jpg");
+  background-image: url("/img/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -146,6 +146,35 @@ a:hover {
 .content .row img.fullwidth,
 .content .row iframe {
   width: 100%;
+}
+.content a {
+  text-decoration: underline;
+  color: #666;
+}
+.content a:hover {
+  color: #44b6f5;
+}
+.row.certifications {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.row.certifications .caption {
+  font-size: 14px;
+}
+.row.certifications .col-lg-6 {
+  max-width: 240px;
+  margin: 0 auto;
+}
+.sbsa-callout {
+  margin: 0 auto;
+  display: table;
+}
+.sbsa-callout img {
+  margin-right: 15px;
+}
+.sbsa-callout p {
+  display: table-cell;
+  vertical-align: middle;
 }
 .video-container {
   max-width: 320px;
