@@ -231,3 +231,11 @@ a:hover {
 .footer .logos img {
   margin-right: 8px;
 }
+.center-br {
+  width: 100px;
+  border-bottom: 2px solid grey;
+  margin: 30px auto;
+}
+.equipment img {
+  max-width: 100%;
+}

@@ -14,7 +14,7 @@
       <li class="navbar-item"><a class="navbar-link" href="lessons.php">Lessons</a></li>
       <li class="navbar-item"><a class="navbar-link" href="tandems.php">Tandems</a></li>
       <li class="navbar-item"><a class="navbar-link" href="equipment.php">Equipment</a></li>
-      <li class="navbar-item"><a class="navbar-link" href="about.php">Reviews</a></li>
+      <li class="navbar-item"><a class="navbar-link" href="reviews.php">Reviews</a></li>
     </ul>
   </div>
 </div>
