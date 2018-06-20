@@ -1,0 +1,32 @@
+Hi Willy!
+
+Here are some pointers/reminders for a couple things you may want to change. If this doesn't make sense or if you're looking for something not on this list don't hesitate to reach out! :) :)
+
+In general the key files are:
+* 'css/fahg.css' - this dictates the overall styling of the site (eg. colors, fonts, etc) as well as some particularities around a few photos.
+* 'inc/top_nav.shtml' & 'inc/bottom_nav.shtml' - these two provide content for the sticky navigation + hero image/header and the footer respectively
+* 'index.php', 'equipment.php', etc etc contain content specific to each particulr page. (the part between header & footer)
+
+
+I'll add annotations to each file to help you navigate changes.
+
+
+1. Header Photo
+ - upload a new photo to the server in the fafiles directory
+ - the file you need to update is css/fahg.css. Search for "Hero Image" to help you find the place to edit & my annotations/instructions nearby
+
+
+2. Text or Photos on any particular page.
+ - hopefully pretty straightforward, find your text or photo on the particular page and edit away.
+ - remember that <p> indicates a paragraph so if you'd like to add a new paragraph surround text with paragraph tags like so <p>NEW PARAGRAPH WITH SPACING HERE</p>
+
+
+3. Videos & Thumbnails on the main page.
+ - upload new videos to youtube
+ - for each video upload an image you'd like to use as a thumbnail/preview to the fafiles directory
+ - to update the thumbnails look for "Video Thumbnail" in the css/fahg.css file
+ - to update the videos look for "Youtube Video" in the index.php file
+
+
+4. Contact Info.
+ - find your email & phone number in the inc/top_nav & inc/bottom_nav files to swap 'em out

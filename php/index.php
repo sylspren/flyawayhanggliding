@@ -42,6 +42,21 @@ patience and calm nature. <br clear="all"></p>
     </div>
   </div>
   <div class="row">
+    <!-- Youtube Video configration starts here -->
+    <!-- To update the videos swap out the urls below with the url of
+         your desired video. You can copy the video url directly from your
+         browser then edit it a bit. It should look like
+         www.youtube.com/watch?v=...&...
+         Remove everything after the first & and then add &rel=0&autoplay=1
+
+         For example: if your video url is
+           https://www.youtube.com/watch?v=VIDEO_ID&a-bunch-of-random-crap
+         You should use
+           https://www.youtube.com/watch?v=VIDEO_ID&rel=0&autoplay=1
+
+         If this doesn't make sense, that's okay it'll work anyways. :)
+         Just copy paste the entire url
+    -->
     <div class="col-md-4 video-container">
       <a href="https://www.youtube.com/watch?v=Rrtjn4ezBpg&rel=0&autoplay=1" data-toggle="lightbox">
         <div class="video-thumbnail video-1">
@@ -65,6 +80,7 @@ patience and calm nature. <br clear="all"></p>
         </div>
       </a>
     </div>
+    <!-- Youtube Video configration ends here -->
   </div>
   <div class="row">
     <div class="col-sm-6">

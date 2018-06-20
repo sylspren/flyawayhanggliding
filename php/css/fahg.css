@@ -74,6 +74,13 @@ a:hover {
     display: initial;
   }
 }
+/* hero image configuration starts here:
+ * update that first line `background-image` to provide a new image.
+ * You may need to also tweak the 'top: 28%;' config under
+ * '.hero-image .hero-image__content'. That determines the vertical location of
+ * the title relative to the photo. Futz with it to move the words up and down
+ * ie. so they dont cover the glider
+ */
 .hero-image {
   background-image: url("/fafiles/hero.jpg");
   background-repeat: no-repeat;
@@ -100,6 +107,7 @@ a:hover {
   top: 28%;
   text-shadow: 1px 1px 1px #141414;
 }
+/* hero image configuration end here */
 .hero-image .title,
 .hero-image .subtitle {
   color: #fff;
@@ -200,6 +208,11 @@ a:hover {
   margin-top: -25px;
   margin-left: -35px;
 }
+/* Video Thumbnail configuration starts here
+ * The following 1, 2, 3 are the previews/thumbnails
+ * from left to right. You can replace the filename with
+ * the name of your new photos below. That's it!
+ */
 .video-thumbnail.video-1 {
   background-image: url("/fafiles/flyingScreenshot.jpg");
 }
@@ -209,6 +222,7 @@ a:hover {
 .video-thumbnail.video-3 {
   background-image: url("/fafiles/trainingScreenshot.jpg");
 }
+/* Video Thumbnail configuration end here */
 .footer {
   text-align: center;
   background-color: #031430;
