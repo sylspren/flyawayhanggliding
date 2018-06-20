@@ -19,7 +19,7 @@ include("inc/head.php");
       to learning to fly, the quicker you will progress. Learning to fly hang gliders
        is easier than learning to ride a bicycle.  We specialize in personalized instruction. </p>
       <p>
-      Most students acheives their Hang 1, Beginning rating, in 2 days. It
+      Most students acheive their Hang 1, Beginning rating, in 2 days. It
       takes an average of 7 to 10 days to achieve your Hang 2, Novice rating.  A Novice rating allows you to fly in our mountains with supervision.
        Soon you will be using the thermals to stay up and soar for hours.
       </p>
@@ -54,7 +54,6 @@ include("inc/head.php");
       <p>
       For most people, this results in 3 times as many flights per lesson than hiking
       it yourself. This is one of the many advantages of our hang gliding school.
-      After a tandem mountain flight you're ready for your first solo mountain flight.
       </p>
       <p>Combine the transport up the hill, Santa Barbara's consistent weather, excellent
       instructor, and it's easy to see why our students progress often twice or three times
@@ -69,7 +68,7 @@ include("inc/head.php");
 
   <div class="row">
     <div class="col-sm-6">
-      <p>You will fly <a href="http://www.willswing.com/" name="Wills Wing home page">Wills Wing Condors and Alphas</a> the state of the art training gliders. Advanced pilots average 2 hours per flight in our local mountains.  You're first mountain flight will be off Alternator, at 3800 feet.  Your flight will last about 15 to 20 minutes.  Congratulations, you're now a pilot and the air is free!</p>
+      <p>You will fly <a href="http://www.willswing.com/" name="Wills Wing home page">Wills Wing Condors and Alphas</a> the state of the art training gliders. Advanced pilots average 2 hours per flight in our local mountains. After a tandem mountain flight you're ready for your first solo mountain flight. Your first mountain flight will be off Alternator, at 3800 feet.  Your flight will last about 15 to 20 minutes.  Congratulations, you're now a pilot and the air is free!</p>
     </div>
     <div class="col-sm-5 offset-sm-1">
       <img class="fullwidth" src="fafiles/LaunchingMountain.jpeg" alt="Student launching off top of hill"/>
@@ -116,7 +115,7 @@ round, unless it's actually raining. </p>
         Google <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=2650+Cliff+Drive,+Santa+Barbara,+CA&sll=34.405325,-119.736321&sspn=0.006117,0.004903&gl=us&ie=UTF8&hq=&hnear=2650+Cliff+Dr,+Santa+Barbara,+California+93101&ll=34.405024,-119.737383&spn=0.006117,0.008991&z=17">2650 Cliff Dr., Santa Barbara</a>. There is no address there, but it will put you very close to the entrance.
       </p>
       <p>
-        If you are traveling north on Hyw. 101 from Los Angeles, you will go left on Las Positas, towards the ocean. If you are traveling south from San Fransisco, go right on Las Positas.
+        If you are traveling north on Hwy 101 from Los Angeles, you will go left on Las Positas, towards the ocean. If you are traveling south from San Fransisco, go right on Las Positas.
         <br>
         Go about 1 mile, through several stoplights and you will come to a "T" intersection at a stop sign with a flashing red light. <br>
         This is Cliff Dr.  Take a left. <br>

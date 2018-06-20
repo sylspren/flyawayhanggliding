@@ -10,7 +10,7 @@ include("inc/head.php");
 <div class="content">
   <h4>Share Your Experience with Fly Away Hang Gliding</h4>
   <p>I started flying hang gliders back in 1986. I had let the rating lapse and was only flying Paragliders. I decided to get my H2 rating back and had contacted
-  Fly Away Hangliding. I was impressed with the claimed consistency of the training site. The Instructor Willy Dydo contacted me and we made plans to
+  Fly Away Hang Gliding. I was impressed with the claimed consistency of the training site. The Instructor Willy Dydo contacted me and we made plans to
   start in again and polish off the rust.
 
   It was a pleasure to work with Willy. His laid back manner was just what I needed. He guided me through my rough spots and did all he could to make the
@@ -24,7 +24,7 @@ include("inc/head.php");
    <p>July 5, 2010 </p>
 
   <p>This letter is to express my gratefulness to you for introducing me to the incredible sport of hang gliding. It has now been more than 10 years that I have been enjoying the sport and am looking forward to many more decades of flight! What a wonderful opportunity you have to introduce people to the dream of flying. Your patience, knowledge, and dedication to hang gliding shows in how you work with your students. You make learning FUN! I remember my first flights on the training hill. It was so exciting. The "Brat" is classic... what a great way to maximize a students flight time without always having to "hike" your
-  wing up to the top of the hill. Later... as I took my first mountain flight… nothing can compare to the feeling of mountain flying with the birds, and the exhilarating rush of
+  wing up to the top of the hill. Later... as I took my first mountain flight... nothing can compare to the feeling of mountain flying with the birds, and the exhilarating rush of
   achievement after safely reaching the ground. I highly recommend Fly Away Hang Gliding to learn and ENJOY the sport of hang gliding. Please feel free to have potential students contact me with any questions or for personal reference. Thank You!</p>
   <p>James Zender 805-451-5697 USHPA#77781</p>
   <div class="center-br"></div>

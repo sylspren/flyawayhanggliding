@@ -27,10 +27,10 @@ include("inc/head.php");
     <div class="col-sm-6 offset-sm-1">
       <h3>Willy Dydo is your world class instructor.</h3>
       <p>Certified USHPA Instructor, Willy Dydo, grew up in Vermont.  Ever since his feet left the ground Willy has had a hard time
-ming   down, which is the main reason why he now calls Santa Barbara, with its year-round epic flying, his home.
- enjoys giving others the gift of flight and helping turn their dreams into reality.
-lly   is one of the best instructors we've ever seen, not only because he's a great pilot, but also because of his
-tience and calm nature. <br clear="all"></p>
+coming   down, which is the main reason why he now calls Santa Barbara, with its year-round epic flying, his home.
+ He enjoys giving others the gift of flight and helping turn their dreams into reality.
+willy   is one of the best instructors we've ever seen, not only because he's a great pilot, but also because of his
+patience and calm nature. <br clear="all"></p>
     </div>
   </div>
   <div class="row">
@@ -60,6 +60,7 @@ tience and calm nature. <br clear="all"></p>
     <div class="col-md-4 video-container">
       <a href="https://www.youtube.com/watch?v=eWW4VtR3XBY&rel=0&autoplay=1" data-toggle="lightbox">
         <div class="video-thumbnail video-3">
+
           <img src="fafiles/yt_icon_mono_light.png">
         </div>
       </a>
@@ -115,5 +116,12 @@ tience and calm nature. <br clear="all"></p>
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  });
+</script>
 
 <?php include("inc/foot.php") ?>
